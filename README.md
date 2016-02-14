@@ -1,7 +1,8 @@
 # filesync
 An utility to sync files between two dirs. Cross-platform, uses hardlinks.
 
-## How to install it using Conan & CMake, (Windows, MSVC 14, x64)
+## Installation using Conan & CMake, (Windows, MSVC 14, x64)
+for Debug:
 ```
 $ git clone git@github.com:sergeykhrykov/filesync.git
 $ mkdir build.debug
@@ -11,7 +12,7 @@ $ cmake .. -G "Visual Studio 14 Win64"
 $ cmake --build . --config Debug
 ```
 
-or 
+or, for Release: 
 ```
 $ mkdir build.release
 $ cd build.release
