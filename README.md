@@ -2,7 +2,10 @@
 An utility to sync files between two dirs. Cross-platform, uses hardlinks (hence, same-drive and NTFS-only for Windows).
 Files are filtered by user-provided extension.
 
-## Installation using Conan & CMake, (Windows, MSVC 14, x64)
+## Installation 
+Requires Conan & CMake. 
+
+(Windows, MSVC 14, x64)
 for Debug:
 ```
 $ git clone git@github.com:sergeykhrykov/filesync.git
