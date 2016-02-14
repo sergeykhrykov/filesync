@@ -27,4 +27,4 @@ $ cmake --build . --config Release
 
 ## Limitations
 - No support for pattern matching in file or folder names yet.
-- On Windows, the two folders must be on the same drive (otherwise hardlinks can't be created between them)
+- On Windows, the two folders must be on the same NTFS drive (otherwise hardlinks can't be created between them)
