@@ -1,5 +1,6 @@
 # filesync
 An utility to sync files between two dirs. Cross-platform, uses hardlinks.
+Files are filtered by user-provided extension.
 
 ## Installation using Conan & CMake, (Windows, MSVC 14, x64)
 for Debug:
