@@ -18,7 +18,7 @@ $ cmake .. -G "Visual Studio 14 Win64"
 $ cmake --build . --config Release
 
 ## Usage
-filesync <dir1> <dir2> <file extension>
+$ filesync <dir1> <dir2> <file extension>
 
 ## Limitations
 - No support for pattern matching in file or folder names yet.
